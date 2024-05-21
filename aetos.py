@@ -1072,7 +1072,7 @@ class EmployeeSystem:
                 html_file.write(rendered_html)
 
             # Convert HTML to PDF
-            user_folder = f'C:/Users/Admin/Documents/Aetos_Digital/Pdf/{self.var_emp_code.get()}-{self.var_name.get()}'
+            user_folder = f'C:/Users/Admin/Documents/Company_name/Pdf/{self.var_emp_code.get()}-{self.var_name.get()}'
 
             # Check if the directory exists, and create it if not
             if not os.path.exists(user_folder):
